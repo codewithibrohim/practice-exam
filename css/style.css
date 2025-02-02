@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Futura Cyrillic';
+    src: url('FuturaCyrillic-ExtraBold.woff2') format('woff2'),
+        url('FuturaCyrillic-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Cyrillic';
+    src: url('FuturaCyrillicLight.woff2') format('woff2'),
+        url('FuturaCyrillicLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Cyrillic';
+    src: url('FuturaCyrillicHeavy.woff2') format('woff2'),
+        url('FuturaCyrillicHeavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Cyrillic';
+    src: url('FuturaCyrillic-Bold.woff2') format('woff2'),
+        url('FuturaCyrillic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Cyrillic';
+    src: url('FuturaCyrillicMedium.woff2') format('woff2'),
+        url('FuturaCyrillicMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Cyrillic';
+    src: url('FuturaCyrillic-Demi.woff2') format('woff2'),
+        url('FuturaCyrillic-Demi.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Cyrillic';
+    src: url('FuturaCyrillicBook.woff2') format('woff2'),
+        url('FuturaCyrillicBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* FONTS */
+
+/* ROOT */
+:root {
+ /* colors */
+ --color-primary: #333333;
+ --color-secondary: #fff;
+ --color-third: #FFBD54;
+ /* backgrounds */
+ --bg-primary: #F9F8F8;
+ --bg-secondary: #fff;
+ /* fonts */
+ --font-primary: "Futura Cyrillic";
+ --font-weight: 400;
+}
+
+* {
+ margin: 0;
+ padding: 0;
+ scroll-behavior: smooth;
+}
+
+html {
+ height: 100%;
+ scroll-behavior: inherit;
+}
+
+body {
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+ font-family: var(--font-primary);
+ font-weight: var(--font-weight);
+}
+
+main {
+ flex-grow: 1;
+}
+
+.my-container{
+ width: 100%;
+ max-width: 1340px;
+ margin: 0 auto;
+ padding: 0 15px;
+}
+
+img {
+ max-width: 100%;
+ height: auto;
+}
+
+ul,
+ol {
+ list-style: none;
+}
+
+a {
+ text-decoration: none;
+ background-color: transparent;
+}
+.header-top{
+    padding: 12px 0;
+}
+.site-header{
+    padding: 20px 0 ;
+}
