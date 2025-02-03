@@ -21,18 +21,18 @@
                         </a>
                     </li>
                     <li>
-                        <a class="" href="tel:(067)634-75-74">
+                        <a class="active:opacity-[0.6] hover:text-[var(--color-third)] transition-all 0.3s " href="tel:(067)634-75-74">
                             (067) 634-75-74
                         </a>
                     </li>
                     <li>
-                        <a class="relative flex items-center gap-[9px] before:content-[''] before:inline-block before:w-1 before:h-1 before:bg-[var(--color-third)] before:rounded-full" 
+                        <a class="active:opacity-[0.6] hover:text-[var(--color-third)] transition-all 0.3s relative flex items-center gap-[9px] before:content-[''] before:inline-block before:w-1 before:h-1 before:bg-[var(--color-third)] before:rounded-full" 
                         href="tel:(0637)57-01-31">
                         (0637) 57-01-31
                     </a>
                 </li>
                 <li>
-                    <a class="relative flex items-center gap-[9px] before:content-[''] before:inline-block before:w-1 before:h-1 before:bg-[var(--color-third)] before:rounded-full" 
+                    <a class="active:opacity-[0.6] hover:text-[var(--color-third)] transition-all 0.3s relative flex items-center gap-[9px] before:content-[''] before:inline-block before:w-1 before:h-1 before:bg-[var(--color-third)] before:rounded-full" 
                     href="tel:(098)266-43-89">
                     (098) 266-43-89
                 </a>
@@ -48,36 +48,60 @@
 </div>
 <header class="site-header py-[20px]">
     <div class="my-container">
-        <div class="bg-[var(--bg-secondary)] flex items-center justify-between relative">
-            <a href="#">
+        <div class="bg-[var(--bg-secondary)] flex items-center justify-between relative w-[100%]">
+            <a class="w-[10%]" href="#">
                 <img class="absolute top-[-33px]" src="./images/header-pets-logo-img.svg" alt="pet-logo" width="178" height="86">
             </a>
-            <ul class="flex items-center gap-[55px]"> 
+            <ul class="flex items-center gap-[45px]"> 
                 <li>
-                    <a class="before:inline-block before:content-[url('../images/header-first-img.svg')] before:w-4 before:h-4 inline-flex gap-[12px]" href="#">Главная</a>
+                    <a class="active:opacity-[0.6] before:inline-block before:content-[url('../images/header-first-img.svg')] before:w-4 before:h-4 inline-flex gap-[12px]" href="#">Главная</a>
                 </li>
                 <li>
-                    <a href="#">О Клинике</a>
+                    <a class="active:opacity-[0.6]" href="#">О Клинике</a>
                 </li>
                 <li>
-                    <a href="#">Наши Услуги</a>
+                    <a class="active:opacity-[0.6]" href="#">Наши Услуги</a>
                 </li>
                 <li>
-                    <a href="#">Полезные Статьи</a>
+                    <a class="active:opacity-[0.6]" href="#">Полезные Статьи</a>
                 </li>
                 <li>
-                    <a href="#">FAQ</a>
+                    <a class="active:opacity-[0.6]" href="#">FAQ</a>
                 </li>
                 <li>
-                    <a href="#">Контакты</a>
+                    <a class="active:opacity-[0.6]" href="#">Контакты</a>
                 </li>
             </ul>
-            <div class="inline-flex before:inline-block before:content-[url('../images/header-second-img.svg')] before:w-3 before:h-3 gap-[18px]">
-                <a class="" href="#">Задать вопрос</a>
+            <div class="active:opacity-[0.6] inline-flex before:inline-block before:content-[url('../images/header-second-img.svg')] before:w-3 before:h-3 gap-[18px]">
+                <a class="active:opacity-[0.6]" href="#">Задать вопрос</a>
             </div>
         </div>
     </div>
 </header>
-    <main class="bg-[var(--bg-primary)]"></main>
+<main class="bg-[var(--bg-primary)]">
+    <section class="hero">
+        <div class="my-container">
+            <div class="hero-wrapper w-[100%] flex">
+                <div class="hero-wrapper__start w-[50%]"></div>
+                <div class="hero-wrapper__end w-[50%]">
+                    <h1 class="hero-title text-[var(--color-primary)] text-[54px] font-[700]">Мы заботимся о <span class="inline-block text-[#78C0DE]">ваших питомцах!</span></h1>
+                    <p class="hero-desc text-[var(--color-forth)] w-[495px]">Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.</p>
+                    <a class="hero-link inline-block bg-[var(--color-primary)] text-[var(--color-secondary)] px-[48px] py-[16px] rounded-[3px]"  href="#">Наши услуги</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="quotation">
+        <div class="my-container">
+            <div class="quotation__wrapper w-full max-w-[753px] text-center text-[var(--color-forth)] text-[20px] relative before:absolute before:left-1/2 before:-translate-x-1/2 before:w-[140px] before:h-[2px] before:bg-[var(--color-forth)] before:content-[''] after:content-[''] after:absolute after:w-[140px] after:h-[2px] after:bg-[var(--color-forth)] after:-translate-x-1/2">
+                <p class="quotation__desc before:inline-block before:content-[url('../images/first-quotation.png')] relative before:absolute before:top-[16px] before:left-[-120px] after:absolute after:content-[url('../images/second-quotation.png')] after:bottom-[6px] after:right-[-120px]">
+                    Наша ветеринарная клиника готова уделить максимум внимания Вам и Вашему питомцу. 
+                    Здоровье и благополучие Ваших животных очень важно для нас, и мы стремимся оказать наилучшую возможную ветеринарную помощь.
+                </p>
+            </div>
+            <span class="quotation-text text-[20px] text-[var(--color-primary)] inline-block text-center w-[100%]">Оржоникидзевская Ветеринарная клиника</span>
+        </div>
+    </section>
+</main>
 </body>
 </html>
