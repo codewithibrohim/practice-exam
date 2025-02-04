@@ -167,19 +167,59 @@
         </div>
     </section>
     <section class="email">
-        <!-- <div class="my-container"> -->
-            <div class="email__wrapper bg-[#78C0DE] relative">
-                <img class="absolute top-[-84px] right-[90px]" src="./images/email-bg-img.png" alt="dog-img">
-                <h2 class="email__wrapper-title text-[48px] text-[var(--color-secondary)] font-bold">Будь в курсе событий</h2>
-                <search>
-                    <form class="email__wrapper-form">
-                        <input class="email__wrapper-input w-[335px] bg-[var(--bg-secondary)] rounded-[5px] text-[16px] text-[var(--color-forth)]" type="email" name="" id="" placeholder="Укажите Ваш email адрес">
-                        <button class="email__wrapper-input__btn bg-[var(--color-primary)] text-[var(--color-secondary)] text-[16px] rounded-[3px]" type="submit">Подписаться</button>
-                    </form> 
-                </search>
-            </div>
-        <!-- </div> -->
+        <div class="email__wrapper bg-[#78C0DE] relative">
+            <img class="absolute top-[-84px] right-[90px]" src="./images/email-bg-img.png" alt="dog-img">
+            <h2 class="email__wrapper-title text-[48px] text-[var(--color-secondary)] font-bold">Будь в курсе событий</h2>
+            <search>
+                <form class="email__wrapper-form">
+                    <input class="email__wrapper-input w-[335px] bg-[var(--bg-secondary)] rounded-[5px] text-[16px] text-[var(--color-forth)]" type="email" name="" id="" placeholder="Укажите Ваш email адрес">
+                    <button class="email__wrapper-input__btn bg-[var(--color-primary)] text-[var(--color-secondary)] text-[16px] rounded-[3px]" type="submit">Подписаться</button>
+                </form> 
+            </search>
+        </div>
+        
     </section>
-</main>
+    <section class="news">
+        <div class="my-container">
+            <h2 class="news__title text-[48px] text-[var(--color-primary)] font-bold text-center">Полезные статьи</h2>
+            <ul class="news__list gap-[35px] flex items-center w-[100%] h-[100%]">
+                <li class="news__list-item w-[100%] max-w-[305px] bg-[#F3F3F3] rounded-[5px]">
+                    <img class="news__list-item__img" src="./images/news-img1.png" alt="" width="305" height="180">
+                    <div class="news__list-item__box">
+                        <data class="news__list-item__data text-end inline-flex justify-end w-[100%] text-[14px] text-[var(--color-forth)]">28.08.2020</data>
+                        <h3 class="news__list-item__title text-[#000000] font-bold text-[22px]">Ультразвуковая чистка зубов</h3>
+                        <p class="news__list-item__desc text-[16px] text-[var(--color-forth)]">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
+                        <a href="#" class="news__list-item__link before:inline-block before:content-[url('../images/header-second-img.svg')] flex items-center gap-[5px] text-[16px] text-[var(--color-primary)]">Читать больше</a>
+                    </div>
+                </li>
+                <li class="news__list-item grow-[1] bg-[#F3F3F3] rounded-[5px] flex h-[547px]">
+                    <img class="news__list-item__img" src="./images/news-img2.png" alt="" width="305" height="435">
+                    <div class="news__list-item__box">
+                        <div class="news__list-item__data-box flex items-center gap-[50px]">
+                            <ul class="flex items-center gap-[7px]">
+                                <li class="text-[#3D9CEA] text-[14px]">#собака</li>
+                                <li class="text-[#3D9CEA] text-[14px]">#дом</li>
+                                <li class="text-[#3D9CEA] text-[14px]">#уход</li>
+                            </ul>
+                                <span class="news__list-item__data inline-block text-[14px] text-[var(--color-forth)]">29.08.2020</span>
+                            </div>
+                            <h3 class="news__list-item__title text-[#000000] font-bold text-[22px]">Перед тем как завести собаку</h3>
+                            <p class="news__list-item__desc text-[16px] text-[var(--color-forth)]">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от заводчиков, Бивают и ситуации когда животное находят на улице и дают ему теплый дом. – как определить возраст котенка. Появление в доме котенка приятное и радосное событие.</p>
+                            <a href="#" class="news__list-item__link before:inline-block before:content-[url('../images/header-second-img.svg')] flex items-center gap-[5px] text-[16px] text-[var(--color-primary)] ">Читать больше</a>
+                        </div>
+                    </li>
+                    <li class="news__list-item w-[100%] max-w-[305px] bg-[#F3F3F3] rounded-[5px]">
+                        <img class="news__list-item__img" src="./images/news-img3.png" alt="" width="305" height="180">
+                        <div class="news__list-item__box">
+                            <data class="news__list-item__data text-end inline-flex justify-end w-[100%] text-[14px] text-[var(--color-forth)]">21.07.2020</data>
+                            <h3 class="news__list-item__title text-[#000000] font-bold text-[22px]">Когда привавать питомца?</h3>
+                            <p class="news__list-item__desc text-[16px] text-[var(--color-forth)]">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
+                            <a href="#" class="news__list-item__link before:inline-block before:content-[url('../images/header-second-img.svg')] flex items-center gap-[5px] text-[16px] text-[var(--color-primary)]">Читать больше</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
