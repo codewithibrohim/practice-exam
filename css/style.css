@@ -238,3 +238,23 @@ a {
     background-color: var(--color-primary);
  }
 
+ .email{
+    padding-top: 108px;
+    padding-bottom: 65px;
+ }
+ .email__wrapper{
+    padding: 90px 0;
+    padding-left: 221px;
+ }
+ .email__wrapper-title{
+    padding-bottom: 32px;
+ }
+ .email__wrapper-input{
+    padding: 12px 0;
+    padding-left: 22px;
+ }
+ .email__wrapper-input__btn{
+    padding: 12px 52px;
+    margin-left: 21px;
+ }
+
